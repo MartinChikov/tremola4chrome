@@ -1,0 +1,14 @@
+
+#div\:voting-board,#div\:voting-list{
+  background:#eef6ff;
+  padding:12pt;
+  border-radius:8pt;
+}
+button{
+  padding:6pt;
+  border:none;
+  border-radius:4pt;
+  background:#e9f2fb;
+}
+
+button,.voting_list_button{color:#000;}

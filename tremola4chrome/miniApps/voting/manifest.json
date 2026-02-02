@@ -1,0 +1,36 @@
+{
+  "name": "Voting App",
+  "description": "Simple poll demo",
+  "icon": "assets/voting.svg",
+  "init": "setVotingScenario('voting-list')",
+  "id": "voting",
+  "cssFile": "resources/voting.css",
+  "scripts": [
+    "src/voting_ui.js",
+    "src/voting.js"
+  ],
+  "htmlFile": "resources/voting.html",
+  "scenario": {
+    "voting-list": {
+      "menu": {
+        "Settings": "menu_settings"
+      },
+      "display": [
+        "div:back",
+        "core",
+        "div:voting-list",
+        "plus"
+      ]
+    },
+    "voting-board": {
+      "menu": {
+        "Settings": "menu_settings"
+      },
+      "display": [
+        "div:back",
+        "core",
+        "div:voting-board"
+      ]
+    }
+  }
+}
